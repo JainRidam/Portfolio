@@ -9,7 +9,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 50vw;
+  width: 20vw;
+  margin-left: 20vw;
 }
 .First_back_div {
   top: 0;
@@ -26,7 +27,7 @@
   /* transform: rotateY(180deg); */
   transition: 1.8s;
 }
-.First_div:hover {
+#Home_photo_div:hover .First_div {
   transform: rotateY(180deg);
   transition: 1.8s;
 }
