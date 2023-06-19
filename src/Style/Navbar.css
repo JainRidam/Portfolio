@@ -1,0 +1,87 @@
+.navbar_ul {
+  text-decoration: none;
+  display: flex;
+  justify-content: right;
+  font-size: 1vw;
+  padding-right: 6vw;
+}
+.navbar_li {
+  list-style: none;
+  text-decoration: none;
+  padding-top: 2vw;
+}
+.dark_Outer_div_navbar ul li a {
+  text-decoration: none;
+  color: white;
+  transition: 0.4s;
+}
+
+.dark_Outer_div_navbar {
+  z-index: 5;
+  width: 100vw;
+  position: fixed;
+  height: 10vh;
+  display: flex;
+  background: #1e1c1c;
+  /* color: white; */
+  justify-content: space-between;
+}
+.light_Outer_div_navbar ul li a {
+  text-decoration: none;
+  color: #1e1c1c;
+}
+
+.light_Outer_div_navbar {
+  z-index: 5;
+  width: 100vw;
+  position: sticky;
+  height: 10vh;
+  display: flex;
+  background: transparent;
+  /* color: white; */
+  justify-content: space-between;
+}
+.navbar_img img {
+  width: 4vw;
+  height: 3vw;
+  background-size: cover;
+  /* border: 2px solid white; */
+  border-radius: 90px;
+}
+.navbar_img {
+  padding: 2vw;
+}
+
+.darkmodeon {
+  width: 1.5vw;
+  height: 1.5vw;
+  padding-left: 2px;
+  position: relative;
+  left: 0;
+  transition: 1s ease;
+}
+.lightmodeon {
+  width: 1.5vw;
+  height: 1.5vw;
+  padding-left: 2px;
+  position: relative;
+  left: 30px;
+  transition: 1s ease;
+}
+.navbar_button_div {
+  margin-left: 2vw;
+  background-color: white;
+  width: 4vw;
+  height: 1.5vw;
+  border-radius: 20px;
+}
+.dark_Outer_div_navbar ul li a:hover {
+  color: #5a4575;
+  transition: 0.2s ease-in;
+  font-size: 1.2vw;
+}
+.ul_inside_div {
+  text-align: center;
+  width: 7vw;
+  /* height: 9vw; */
+}

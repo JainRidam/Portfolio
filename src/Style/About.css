@@ -1,0 +1,35 @@
+.Outer_div_about {
+  justify-content: space-evenly;
+  padding-top: 5vw;
+  height: 100vh;
+  background-color: #1e1c1c;
+  color: white;
+}
+.inner_first_div {
+  padding-top: 2vw;
+  width: 50vw;
+  text-align: center;
+}
+.inner_second-div {
+  padding-top: 5vw;
+  text-align: center;
+  width: 50vw;
+}
+.inner_first_div img {
+  height: 60vh;
+  width: 20vw;
+}
+.inner_second-div p {
+  align-items: center;
+  text-align: left;
+  width: 30vw;
+  margin: auto;
+}
+.hidden {
+  opacity: 0;
+  transition: all;
+}
+.show {
+  opacity: 1;
+  transition: all;
+}

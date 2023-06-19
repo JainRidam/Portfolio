@@ -1,0 +1,34 @@
+.Outer_div_Project {
+  height: auto;
+  background-color: #1e1c1c;
+  color: white;
+  padding-top: 5vw;
+}
+.Inner_div {
+  margin: auto;
+  display: flex;
+  width: 80vw;
+  height: 15vw;
+}
+.left_div_inside_inner_div {
+  background-size: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+}
+.img_div_inside_left_div {
+  width: 20vw;
+}
+.img_div_inside_left_div img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 2vw;
+}
+.right_div_inside_inner_div {
+  width: 40vw;
+  display: flex;
+  gap: 1px;
+  /* justify-content: center; */
+  align-items: center;
+}

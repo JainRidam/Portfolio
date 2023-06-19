@@ -1,0 +1,40 @@
+.outer_div_contact {
+  height: 80vh;
+  background-color: #1e1c1c;
+  color: white;
+  padding-top: 8vw;
+}
+.inner_div_contact {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+}
+.left_inner_div_contact {
+  width: 40vw;
+  padding-right: 20vw;
+}
+.right_inner_div_contact {
+  width: 40vw;
+  background-color: #5a4575;
+  /* border-radius: 5vw; */
+  box-shadow: -1vw 1vw 2vw rgb(65, 65, 72);
+  /* height: 20vw; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right_inner_div_contact form input {
+  background: #5a4575;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 25vw;
+  text-align: center;
+  color: white;
+  outline: none;
+}
+.right_inner_div_contact form textarea {
+  width: 25vw;
+  height: 4vw;
+  resize: none;
+}
