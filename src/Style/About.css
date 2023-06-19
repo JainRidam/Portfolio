@@ -24,6 +24,7 @@
   text-align: left;
   width: 30vw;
   margin: auto;
+  font-family: "Raleway";
 }
 .hidden {
   opacity: 0;
@@ -32,4 +33,7 @@
 .show {
   opacity: 1;
   transition: all;
+}
+.inner_second-div h2 {
+  font-family: "Roboto";
 }

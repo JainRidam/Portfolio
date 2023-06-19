@@ -13,8 +13,8 @@ function Skill() {
         <div className="Skill_bar_outer_div" id="first">
           {" "}
           <h3 style={{ display: "flex", justifyContent: "space-between" }}>
-            <h3 style={{ margin: "0" }}>C language</h3>
-            <h3 style={{ margin: "0" }}>90%</h3>
+            <h3 style={{ margin: "0" }}>C </h3>
+            <h3 style={{ margin: "0" }}>80%</h3>
           </h3>
           <div className="Skill_bar_div">
             <div id="C" data-aos="C" data-aos-duration="4000"></div>
@@ -24,7 +24,7 @@ function Skill() {
           {" "}
           <h3 style={{ display: "flex", justifyContent: "space-between" }}>
             <h3 style={{ margin: "0" }}>C++</h3>
-            <h3 style={{ margin: "0" }}>90%</h3>
+            <h3 style={{ margin: "0" }}>60%</h3>
           </h3>
           <div className="Skill_bar_div">
             <div id="Cplus" data-aos="Cplus" data-aos-duration="4000">

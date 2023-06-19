@@ -38,3 +38,18 @@
   height: 4vw;
   resize: none;
 }
+.outer_div_contact h1 {
+  font-family: "Raleway", sans-serif;
+}
+#pickup_line_p {
+  font-family: "Raleway", sans-serif;
+}
+.p_inside_left_inner_div_contact {
+  font-family: "Roboto", sans-serif;
+}
+#Thank_you_p {
+  font-family: "Raleway", sans-serif;
+}
+.Form_P {
+  font-family: "Roboto", sans-serif;
+}

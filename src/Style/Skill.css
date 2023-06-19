@@ -60,7 +60,7 @@
   background: #5a4575;
   transition-property: width;
   &.aos-animate {
-    width: 90%;
+    width: 80%;
   }
 }
 [data-aos="Cplus"] {
@@ -68,7 +68,7 @@
   background: #5a4575;
   transition-property: width;
   &.aos-animate {
-    width: 90%;
+    width: 60%;
   }
 }
 [data-aos="React"] {
@@ -115,3 +115,9 @@
   height: 15vw;
   width: 40vw;
 } */
+.Skill_bar_outer_div {
+  font-family: "Roboto", sans-serif;
+}
+.Outer_div_skill h2 {
+  font-family: "Raleway", sans-serif;
+}

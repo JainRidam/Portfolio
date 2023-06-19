@@ -66,7 +66,7 @@ function Contact() {
         <div className="right_inner_div_contact ">
           {state.succeeded ? (
             <div>
-              <p>Thank You For Your valuable Review </p>
+              <p id="Thank_you_p">Thank You For Your valuable Review </p>
               <div style={{ textAlign: "center" }}>
                 <img src={messagesent} style={{ height: "6vw" }}></img>
               </div>
@@ -75,11 +75,11 @@ function Contact() {
             <div style={{ transition: "3sease-in" }}>
               <form onSubmit={handleSubmit}>
                 <div>
-                  <p>Name</p>
+                  <p className="Form_P">Name</p>
                   <input type="text" id="name" name="name" autoComplete="off" />
                 </div>
                 <div>
-                  <p> Email</p>
+                  <p className="Form_P"> Email</p>
                   <input
                     type="email"
                     id="email"
@@ -93,7 +93,7 @@ function Contact() {
                   />
                 </div>
                 <div>
-                  <p> Comment </p>
+                  <p className="Form_P"> Comment </p>
                   <textarea id="message" name="message" />
                   <ValidationError
                     prefix="Message"

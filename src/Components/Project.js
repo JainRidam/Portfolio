@@ -18,12 +18,12 @@ function Project() {
             </div>
             <div className="right_div_inside_inner_div">
               <div>
-                <div>
+                <div className="name_div_inside_inner_div">
                   <p style={{ margin: "0", marginBottom: "1vw" }}>
                     {values.name}
                   </p>
                 </div>
-                <div>
+                <div className="description_div_inside_inner_div">
                   <p style={{ margin: "0" }}>{values.description}</p>
                   <p>
                     {" "}

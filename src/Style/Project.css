@@ -6,6 +6,7 @@
 }
 .Inner_div {
   margin: auto;
+  padding-bottom: 2vw;
   display: flex;
   width: 80vw;
   height: 15vw;
@@ -31,4 +32,15 @@
   gap: 1px;
   /* justify-content: center; */
   align-items: center;
+}
+.Outer_div_Project h2 {
+  font-family: "Roboto";
+}
+.name_div_inside_inner_div {
+  font-family: "Roboto";
+  font-size: 1.5vw;
+}
+.description_div_inside_inner_div {
+  /* font-family: "Nunito"; */
+  font-family: "Roboto";
 }
